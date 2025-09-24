@@ -58,7 +58,7 @@ return (
                     )}
                     <div class="flex justify-center">
                         {project.demoGif && (
-                            <img src={project.demoGif} alt={`${project.title} demo`} class="max-w-full max-h-[500px] mb-4 border-4 border-gray-700 rounded-lg" />
+                            <img src={project.demoGif} alt={`${project.title} demo`} class="w-auto h-[500px] mb-4 border-4 border-gray-700 rounded-lg" />
                         )}
                     </div>
                 </div>

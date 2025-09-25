@@ -22,6 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Assets (no one needs to see these images on github)
-assets

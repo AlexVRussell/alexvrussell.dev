@@ -40,7 +40,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="text-center mb-[10rem] animate-bounce animate-glow">
+      <div className="text-center mb-[10rem] animate-pulse">
         <FontAwesomeIcon icon={faMouse} className="text-3xl text-gray-400" />
         <div className="text-sm mt-2 text-gray-400">
           <p>Scroll to see more</p>

@@ -27,12 +27,10 @@ export default function Projects() {
 
     return (
         <section id="projects" className="bg-[#1f1f1f] text-white px-6 py-16">
-            <div className="flex flex-col text-3xl justify-center text-center font-bold w-full text-center mb-[5rem]">
-                <h1>
-                    Here are some of my favourite projects.
-                </h1>
-                <p>_______________________________________</p>
-            </div>
+            <h1 className="text-3xl font-bold text-center mb-[10rem]">
+                Here are some of my favourite projects.
+            </h1>
+
             <div className="flex flex-col lg:flex-row lg:items-start gap-8">
                 {projects.map((project, idx) => (
                     <div

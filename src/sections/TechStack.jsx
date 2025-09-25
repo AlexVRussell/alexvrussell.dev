@@ -16,13 +16,9 @@ export default function TechStack() {
     return (
         <section>
             <div className="flex flex-row flex-wrap justify-center items-center bg-[#1f1f1f] text-white gap-20 mb-[10rem] lg:gap-32 px-6 py-16">
-                
-                <div className="flex flex-col text-3xl justify-center text-center font-bold w-full text-center mb-12">
-                <h1>
-                    Here are some of the technologies I use.
+                <h1 className="flex text-3xl justify-center text-center font-bold w-full text-center mb-12">
+                    Some of the technologies I use.
                 </h1>
-                <p>_______________________________________</p>
-                </div>
                 {techStack.map((tech) => (
                     <div key={tech.name} className="p-4 rounded-xl shadow-lg hover:scale-105 transition-transform">
                         <img src={tech.icon} alt={tech.name} className="w-16 h-16 mb-2 text-white fill-blue-500 transition" />
@@ -30,7 +26,7 @@ export default function TechStack() {
                 ))}
             </div>
 
-            <div className="text-center mt-[10rem] mb-[10rem] animate-bounce animate-glow">
+            <div className="text-center mt-[10rem] mb-[10rem] animate-pulse">
                 <FontAwesomeIcon icon={faMouse} className="text-3xl text-gray-400" />
                 <div className="text-sm mt-2 text-gray-400">
                     <p> Scroll to see more</p>

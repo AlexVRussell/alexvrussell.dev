@@ -5,7 +5,6 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Contact() {
     return (
         <section className="flex flex-col justify-center items-center text-white mb-6">
-            <p className="mb-12 text-gray-400">_________________________________</p> {/** is this normal? im too lazy to do anything more then spam underscores */}
             <h2>Contact me?</h2>
             <p>here are my links to all relevant services {"(again)"}</p>
             <div class="flex mb-6 gap-6 mt-4 text-2xl">
@@ -19,6 +18,9 @@ export default function Contact() {
                     <FontAwesomeIcon icon={faEnvelope} class="hover:text-blue-400 transition" />
                 </a>
             </div>
+            <footer className="text-center text-gray-400 py-4 text-sm">
+              © 2025 Alex Russell. All rights reserved.
+            </footer>
         </section>
     )
 }

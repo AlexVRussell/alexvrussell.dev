@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMouse } from "@fortawesome/free-solid-svg-icons";
 
 const techStack = [
-    { name: "React", icon: "/assets/icons/react.svg" },
-    { name: "Java", icon: "/assets/icons/java.svg" },
-    { name: "Python", icon: "/assets/icons/python.svg" },
-    { name: "JavaScript", icon: "/assets/icons/javascript.svg" },
-    { name: "Tailwind CSS", icon: "/assets/icons/tailwindcss.svg" },
-    //{ name: "HTML", icon: "/assets/icons/html.svg" },
-    //{ name: "CSS", icon: "/assets/icons/css.svg" },
+    { name: "React", icon: "/assets/icons/react_blue.svg" },
+    { name: "Java", icon: "/assets/icons/java_blue.svg" },
+    { name: "Python", icon: "/assets/icons/python_blue.svg" },
+    { name: "JavaScript", icon: "/assets/icons/javascript_blue.svg" },
+    { name: "Tailwind CSS", icon: "/assets/icons/tailwindcss_blue.svg" },
+    // { name: "HTML", icon: "/assets/icons/html.svg" },
+    // { name: "CSS", icon: "/assets/icons/css.svg" },
 ];
 
 export default function TechStack() {
@@ -20,7 +20,7 @@ export default function TechStack() {
                     Some of the technologies I use.
                 </h1>
                 {techStack.map((tech) => (
-                    <div key={tech.name} className="p-4 rounded-xl shadow-lg hover:scale-105 transition-transform">
+                    <div key={tech.name} className="p-4 rounded-xl shadow-lg animate-pulse hover:scale-105 transition-transform">
                         <img src={tech.icon} alt={tech.name} className="w-16 h-16 mb-2 text-white fill-blue-500 transition" />
                     </div>
                 ))}

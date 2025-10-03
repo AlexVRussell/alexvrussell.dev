@@ -22,7 +22,7 @@ export default function Hero() {
           />
         </h1>
         <p className="text-lg sm:text-xl text-gray-300 text-center lg:w-1/2 sm:w-md leading-relaxed">
-          Currently pursuing my degree at{" "}
+          Currently in my 4th year at{" "}
           <span className="text-blue-400 font-semibold">Dalhousie University</span>.{" "}
           Interested in all things software development, but mostly working with{" "}
           <span className="text-blue-400 font-semibold">Javascript</span>.

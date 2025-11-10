@@ -25,7 +25,7 @@ export default function Hero() {
           Currently in my 4th year at{" "}
           <span className="text-blue-400 font-semibold">Dalhousie University</span>.{" "}
           Interested in all things software development, with a growing focus on{" "}
-          <span className="text-blue-400 font-semibold">mobile app development</span>.
+          <span className="text-blue-400 font-semibold">cybersecurity and network systems</span>.
         </p>
 
         {/* Social icons */}

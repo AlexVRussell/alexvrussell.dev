@@ -11,17 +11,17 @@ export default function Projects() {
             // may include links to syfty's tik tok and/or ig
         },
         {
+            title: "Multithreaded TCP/IP Client-Server Application",
+            description: "A Java-based networking project demonstrating secure client-server communication using TCP/IP sockets and multithreading to handle multiple connections simultaneously. Is being further developed to add even more features and security enhancements.",
+            tech: ["Java", "TCP/IP", "Socket"],
+            demoImg: "/assets/client-server-socket.png",
+        },
+        {
             title: "Spotify Stat Tracker",
             description:
                 "Using the Spotify API allows users to count and track their listens minutes over time, as well as their top artists and tracks.",
             tech: ["Python", "Flask", "SQLite", "Spotify API"],
             demoImg: "/assets/spotify-stat-tracker-demo.png",
-        },
-        {
-            title: "Text-based Hangman Game",
-            description: "A simple text-based hangman game built in Java that runs in the console.",
-            tech: ["Java"],
-            demoImg: "/assets/hangmangame.png",
         },
     ];
 

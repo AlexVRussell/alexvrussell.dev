@@ -1,0 +1,13 @@
+Welcome to Alex's TryHackMe Challenge.
+
+Your mission:
+1. Explore the system.
+2. Identify the key.
+3. Initialize access using the correct command.
+
+Your goal is to find my Secret Key. Then you can type in the command to get with the key to gain access to my website
+
+Commands you may find useful:
+ - ls
+ - cat <filename>
+ - run <script>

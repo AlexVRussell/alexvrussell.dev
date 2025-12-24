@@ -77,7 +77,7 @@ export default function Terminal() {
 const styles = {
   container: {
     background: "#111",
-    height: "100vh",
+    height: "auto",
     display: "flex",
     justifyContent: "center",
   },

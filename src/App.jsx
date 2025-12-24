@@ -4,7 +4,6 @@ import './App.css'
 import Hero from './sections/hero';
 import TechStack from './sections/TechStack';
 import Projects from './sections/Projects';
-// import Experience from './sections/Experience';
 import Contact from './sections/Contact';
 import Terminal from "./vm/terminal";
 
@@ -23,7 +22,6 @@ export default function App() {
       <Hero />
       <TechStack />
       <Projects />
-      {/* <Experience /> */}
       <Contact />
     </>
       )}

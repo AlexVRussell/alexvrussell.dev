@@ -1,7 +1,5 @@
 import { filesystem } from "./filesystem";
 
-const file = async (path) => (await fetch(path)).text();
-
 export const commandMap = {
   "help": `
 Available commands:
@@ -12,8 +10,9 @@ Available commands:
 `.trim(),
 
   "ls": Object.keys(filesystem).join("  "),
-
-  "cat instructions.txt": () => file("src/vm/filesystem/instructions.txt"),
+  
+  // Read txt file from the in-memory filesystem map
+  "cat instructions.txt": filesystem["instructions.txt"],
 
   "cat system_init.sh": filesystem["system_init.sh"],
 

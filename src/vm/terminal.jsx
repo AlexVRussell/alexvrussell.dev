@@ -19,7 +19,7 @@ export default function Terminal() {
     // handle run commands that are defined
     else if (cmd.startsWith("run ")) {
       if (cmd === "run access_init") {
-        // Step 6 hits backend, but for now we fake it
+        // Step 6 hits backend, fake for now
         output = "[!] Backend validation required...";
       } else {
         output = commandMap[cmd] || `run: cannot execute '${cmd}'`;
@@ -30,8 +30,6 @@ export default function Terminal() {
         setHistory([]);
         return; 
     }
-
-    // regular commands
     else {
       output = commandMap[cmd] || `command not found: ${cmd}`;
     }

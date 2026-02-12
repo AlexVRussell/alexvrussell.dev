@@ -24,8 +24,7 @@ export default function Hero() {
         <p className="text-lg sm:text-xl text-gray-300 text-center lg:w-1/2 sm:w-md leading-relaxed">
           Currently in my 4th year at{" "}
           <span className="text-blue-400 font-semibold">Dalhousie University</span>.{" "}
-          Interested in all things software development, with a growing focus on{" "}
-          <span className="text-blue-400 font-semibold">cybersecurity and network systems</span>.
+          Interested in all things software development. I will be joining RBC as a Software Developer Intern this summer!
         </p>
 
         {/* Social icons */}

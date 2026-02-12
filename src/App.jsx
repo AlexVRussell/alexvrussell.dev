@@ -4,9 +4,9 @@ import './App.css'
 import Hero from './sections/hero';
 import TechStack from './sections/TechStack';
 import Projects from './sections/Projects';
-// import Experience from './sections/Experience';
+import Experience from './sections/Experience';
 import Contact from './sections/Contact';
-import Terminal from "./vm/terminal";
+// import Terminal from "./vm/terminal";
 
 export default function App() {
   // lock in terminal until access is granted
@@ -14,20 +14,17 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#1f1f1f]">
-    {isTerminalLocked ? (
+    {/* {isTerminalLocked ? (
         // LOCKED STATE - Terminal only
         <Terminal onAccessGranted={() => setIsTerminalLocked(false)} />
-      ) : (
-        // UNLOCKED STATE - full website
+      ) : ( */}
         <>
       <Hero />
       <TechStack />
       <Projects />
-      {/* <Experience /> */}
+      <Experience />
       <Contact />
-    </>
-      )}
-
+      </>
     </div>
   );
 }

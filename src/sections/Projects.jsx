@@ -8,6 +8,7 @@ export default function Projects() {
             tech: ["React", "JavaScript", "Expo", "Spotify API"],
             demoGif: "/assets/syfty-demo-gif.gif",
             logo: "/assets/syfty-logo-nobg.png",
+            link: "", 
             // may include links to syfty's tik tok and/or ig
         },
         {
@@ -15,6 +16,7 @@ export default function Projects() {
             description: "A Java-based networking project demonstrating secure client-server communication using TCP/IP sockets and multithreading to handle multiple connections simultaneously. Is being further developed to add even more features and security enhancements.",
             tech: ["Java", "TCP/IP", "Socket"],
             demoImg: "/assets/client-server-socket.png",
+            link: "", 
         },
         {
             title: "Spotify Stat Tracker",
@@ -22,6 +24,7 @@ export default function Projects() {
                 "Using the Spotify API allows users to count and track their listens minutes over time, as well as their top artists and tracks.",
             tech: ["Python", "Flask", "SQLite", "Spotify API"],
             demoImg: "/assets/spotify-stat-tracker-demo.png",
+            link: "", 
         },
     ];
 

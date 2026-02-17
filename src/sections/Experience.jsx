@@ -10,7 +10,7 @@ export default function Experience() {
         },
         {
             title: "Software Developer",
-            company: "Faculty of Chemistry at Dalhousie University", 
+            company: "ChemAR - Faculty of Chemistry at Dalhousie University", 
             location: "Halifax, NS",
             description: "",
             tech: ["JavaScript", "Three.js", "Node.js", "Azure"],
@@ -20,7 +20,7 @@ export default function Experience() {
     return (
         <section id="experience" className="flex flex-col items-center bg-[#1f1f1f] text-white px-6 py-16">
             <h1 className="text-3xl font-bold text-center mb-[10rem]">
-                Here is my Professional Experience.
+                My Professional Experience.
             </h1>
             <div className="flex flex-col lg:items-start gap-8 w-[75%] mx-auto">
                 {experience.map((exp, idx) => (

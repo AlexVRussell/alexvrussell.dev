@@ -3,11 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMouse } from "@fortawesome/free-solid-svg-icons";
 
 const techStack = [
-    { name: "React", icon: "/assets/icons/react_blue.svg" },
-    { name: "Java", icon: "/assets/icons/java_blue.svg" },
-    { name: "Python", icon: "/assets/icons/python_blue.svg" },
     { name: "JavaScript", icon: "/assets/icons/javascript_blue.svg" },
+    { name: "Python", icon: "/assets/icons/python_blue.svg" },
+    { name: "Java", icon: "/assets/icons/java_blue.svg" },
     { name: "Tailwind CSS", icon: "/assets/icons/tailwindcss_blue.svg" },
+    { name: "React", icon: "/assets/icons/react_blue.svg" },
     // { name: "HTML", icon: "/assets/icons/html.svg" },
     // { name: "CSS", icon: "/assets/icons/css.svg" },
 ];
